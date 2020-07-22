@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   root to: 'pages#home'
 
   get 'admin', to: 'pages#admin'
+  get 'shop', to: 'pages#shop'
+  get 'product', to: 'pages#product'
   get 'mentions_legales', to: 'pages#mentions_legales'
 
   resources :owners
